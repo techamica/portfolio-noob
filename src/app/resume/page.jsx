@@ -241,8 +241,8 @@ export default function Resume() {
                                                     <span className="font-semibold text-xl text-center lg:text-left">
                                                         {item.designation}
                                                     </span>
-                                                    <div className="flex gap-2">
-                                                        <span className="flex-none mt-[5] w-2 h-2 bg-accent rounded-full" />
+                                                    <div className="flex gap-2 items-center">
+                                                        <span className="flex-none w-2 h-2 bg-accent rounded-full" />
                                                         <span className="text-sm text-white/60">
                                                             {item.company}
                                                         </span>
@@ -276,8 +276,8 @@ export default function Resume() {
                                                     <span className="font-semibold text-xl">
                                                         {item.degree}
                                                     </span>
-                                                    <div className="flex gap-2">
-                                                        <span className="flex-none mt-[5] w-2 h-2 bg-accent rounded-full" />
+                                                    <div className="flex gap-2 items-center">
+                                                        <span className="flex-none w-2 h-2 bg-accent rounded-full" />
                                                         <span className="text-sm text-white/60">
                                                             {item.institute}
                                                         </span>
@@ -340,8 +340,8 @@ export default function Resume() {
                                                     key={`about-${index}`}
                                                     className="flex flex-col gap-3 bg-[#2a2a31] py-4 px-6 rounded-lg justify-center items-center xl:items-start"
                                                 >
-                                                    <span className="flex gap-2 text-sm text-white/60">
-                                                        <span className="flex-none mt-[5] w-2 h-2 bg-accent rounded-full" />
+                                                    <span className="flex gap-2 items-center text-sm text-white/60">
+                                                        <span className="flex-none w-2 h-2 bg-accent rounded-full" />
                                                         <span>{item.fieldName}</span>
                                                     </span>
                                                     <span className="font-semibold text-xl">
