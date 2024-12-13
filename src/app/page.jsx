@@ -36,7 +36,7 @@ export default function Home() {
           </h1>
           {/* SMALL DESCRIPTION */}
           <p className="max-w-[500] text-white/80">
-            I excel at crafting amazing digital experience and I and proficient in many different programming languages.
+            I excel at crafting amazing digital experience and I am proficient in many different programming languages.
           </p>
           {/* DOWNLOAD CV */}
           <div className="mt-6 flex flex-col gap-6 lg:flex-row lg:gap-8 items-center">
